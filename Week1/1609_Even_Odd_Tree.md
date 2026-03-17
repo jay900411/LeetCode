@@ -30,7 +30,6 @@ public:
 
         while(!q.empty()){
             int size = q.size();
-            // 偶數層找極小值開始遞增，奇數層找極大值開始遞減
             int prev = (level % 2 == 0) ? INT_MIN : INT_MAX;
 
             for(int i = 0; i < size; ++i){
@@ -38,11 +37,11 @@ public:
                 q.pop();
 
                 if (level % 2 == 0){
-                    // 偶數層：必須是奇數且嚴格遞增
+                    // even level : odd and strictly increasing
                     if (node->val % 2 == 0 || node->val <= prev) return false;
                 }
                 else{
-                    // 奇數層：必須是偶數且嚴格遞減
+                    // odd level : even and strictly decreasing
                     if (node->val % 2 != 0 || node->val >= prev) return false;
                 }
 
