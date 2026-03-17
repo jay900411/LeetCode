@@ -21,8 +21,6 @@
 class Solution {
 public:
     bool isEvenOddTree(TreeNode* root) {
-        if (!root) return true;
-
         queue<TreeNode*> q;
         q.push(root);
 
