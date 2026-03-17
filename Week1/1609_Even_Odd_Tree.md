@@ -56,4 +56,4 @@ public:
     }
 };
 ```
-https://github.com/jay900411/LeetCode/blob/main/Week1/1609_accepted.jpg
+![Accepted Screenshot](./1609_accepted.jpg)
