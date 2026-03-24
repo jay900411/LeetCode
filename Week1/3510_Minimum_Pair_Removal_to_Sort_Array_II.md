@@ -3,7 +3,7 @@
 ### 題目說明
 - 每次合併相鄰且和最小的 Pair。
 - 目標：最小化操作次數使數組非遞減 (Non-decreasing)。
-- 優化關鍵： $O(N \log N)$，需使用 Heap + DLL 優化至 $O(N \log N)$。
+- 優化關鍵： $N = 10^5$，需使用 Heap + DLL 優化至 $O(N \log N)$。
 
 ### 程式碼實作 (C++)
 ```cpp
