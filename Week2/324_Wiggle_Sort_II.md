@@ -41,4 +41,4 @@ public:
     }
 };
 ```
-![Accepted Screenshot](./324_accepted.jpg)
+
