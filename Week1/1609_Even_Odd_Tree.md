@@ -1,4 +1,4 @@
-# 1609. Even Odd Tree
+# 1609. Even Odd Tree (Medium)
 
 ### 題目說明
 檢查二元樹是否符合「奇偶樹」規則：
