@@ -15,6 +15,7 @@
 - 空間複雜度：$O(N)$
 
 ### 程式碼實作 (C++)
+```cpp
 class Solution {
 public:
 
@@ -64,5 +65,5 @@ public:
         return (int)total_ans;
     }
 };
-
+```
 ![Accepted Screenshot](./3165_accepted.jpg)
