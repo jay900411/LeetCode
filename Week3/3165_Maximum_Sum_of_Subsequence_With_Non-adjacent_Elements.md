@@ -65,4 +65,4 @@ public:
     }
 };
 
-![3165 Accepted](./3165_accepted.jpg)
+![Accepted Screenshot](./3165_accepted.jpg)
