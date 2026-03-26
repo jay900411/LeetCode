@@ -1,7 +1,7 @@
 # 493. Reverse Pairs (Hard)
 
 ### 題目說明
-給定一個陣列 `nums`，若滿足 $i < j$ 且 $nums[i] > 2 \times nums[j]$，則稱為一個重要翻轉對。求總共有多少個這樣的數對。
+給定一個陣列 `nums`，若滿足 $i < j$ 且 $nums[i] > 2 \times nums[j]$，則稱為一個翻轉數對。求總共有多少個這樣的數對。
 
 ### 解題邏輯：CDQ 分治 (Merge Sort Based)
 本題利用 Merge Sort 的特性，在合併兩個已排序子陣列之前進行統計。
