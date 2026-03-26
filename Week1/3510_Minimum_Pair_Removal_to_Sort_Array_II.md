@@ -44,7 +44,7 @@ public:
 
         int operations = 0;
 
-        while(decreasing_pairs > 0 && !pq.empty()){
+        while(decreasing_pairs > 0){
             auto [sum, i] = pq.top();pq.pop();
 
             if (removed[i] || next[i] == -1 || (val[i] + val[next[i]] != sum)){
