@@ -40,4 +40,4 @@ public:
     }
 };
 ```
-![Accepted Screenshot](./79_accepted.jpg)
+![Accepted Screenshot](./45_accepted.jpg)
