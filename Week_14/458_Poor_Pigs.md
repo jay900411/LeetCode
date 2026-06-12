@@ -8,7 +8,7 @@
 
 ### 解題邏輯：資訊理論與狀態編碼 (Information Theory & State Encoding)
 
-這題看似是演算法題，但本質上是一道極度優美的**「資訊理論 (Information Theory)」與「進位制數學」**問題。我們不需要模擬豬怎麼喝水，而是要計算「豬的生死狀態」能攜帶多少資訊量。
+這題看似是演算法題，但本質上是一道極度優美的 **「資訊理論 (Information Theory)」與「進位制數學」** 問題。我們不需要模擬豬怎麼喝水，而是要計算「豬的生死狀態」能攜帶多少資訊量。
 
 1. **計算單隻豬的狀態數 (Base/Radix)**：
 * 一隻豬可以進行幾次測試？ `rounds = minutesToTest / minutesToDie`。
